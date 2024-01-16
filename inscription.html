@@ -8,7 +8,96 @@
 <body>
     <h1>Ajouter un nouveau pro</h1>
 
-    <form action="/ajouter-pro" method="post">
+    
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>WinWin</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:description" content="">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="font-awesome.min.css">
+  <link rel="stylesheet" href="animate.css">
+  <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900|Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="main.css">
+
+  <script modernizr-2.7.1.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="logo" href="index.html"><img src="winwin.png" width="125"height="50" alt="Logo"></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#pricing" class="scroll"></a></li>
+            <li><a href="/pro" style="border:2px solid white;border-radius:5px;border-collapse: separate;padding:10px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;">Annonceurs</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6">
+            <a href="index.html"><img src="winwin.png" width="125" height="50" alt="Logo"></a>
+          </div>
+          <div class="col-xs-6 signin text-right navbar-nav">
+            <a href="#pricing" class="scroll"></a>&nbsp; &nbsp;<a style="border:2px solid white;border-radius:5px;border-collapse: separate;padding:10px; -webkit-box-sizing: border-box;-moz-box-sizing: border-box; box-sizing: border-box;" href="/présentation-annonceurs">Annonceurs</a>
+          </div>
+        </div>
+
+        <div class="row header-info">
+          <div class="col-sm-10 col-sm-offset-1 text-center">
+            <h1 class="wow fadeIn">Annonceurs</h1>
+            <br />
+            <p class="lead wow fadeIn" data-wow-delay="0.5s">6.000 panneaux publicitaires virtuels intelligents en Île de France. Choisissez qui, quand et où avec une précision sans précédent.  <br></p>
+            <br />
+
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-6 text-right wow fadeInUp" data-wow-delay="1s">
+                    <a href="#be-the-first" class="btn btn-secondary btn-lg scroll">Un aperçu</a>
+                  </div>
+		  <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
+  			<a href="pdf proposition.pdf" download="proposition.pdf" class="btn btn-primary btn-lg scroll">Pdf proposition</a>
+		  </div>
+
+                </div><!--End Button Row-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="mouse-icon hidden-xs">
+				<div class="scroll"></div>
+			</div>
+
+    <section id="be-the-first" class="pad-xl">
+      <form action="/ajouter-pro" method="post">
         <label for="companyName">Nom de l'entreprise :</label>
         <input type="text" id="companyName" name="companyName" required>
 
@@ -53,5 +142,117 @@
 
         <button type="submit">Ajouter un pro</button>
     </form>
-</body>
+    </section>
+
+    <section id="main-info" class="pad-xl">
+	    <div class="container">
+		    <div class="row">
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.4s">
+				    <hr class="line purple">
+				    <h3>Géolocalisation</h3>
+				    <p>Calcul intelligent de passage par catégories de population</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.8s">
+				    <hr  class="line blue">
+				    <h3>Horodatage</h3>
+				    <p>Affichage précis à la seconde près, avec comme condition d'affichage un évènement, une température</p>
+			    </div>
+			    <div class="col-sm-4 wow fadeIn" data-wow-delay="1.2s">
+				    <hr  class="line yellow">
+				    <h3>Profilage</h3>
+				    <p>Un profilage imbattable grâce à l'apprentissage par nos algorithmes du comportement des clients.</p>
+			    </div>
+		    </div>
+	    </div>
+    </section>
+
+    <section id="be-the-first" class="pad-xl">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center margin-30 wow fadeIn" data-wow-delay="0.6s">
+            <h2>Inscris-toi sur le Annonceurs !</h2>
+            <p class="lead">Disperse tes offres sur la map pour attirer tes clients.</p>
+          </div>
+        </div>
+        <div class="pro" data-wow-delay="1s">       
+        </div>
+
+      
+<div class="row">
+              <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                  <div class="col-xs-6 text-right wow fadeInUp" data-wow-delay="1s">
+                    <a href="/inscription" class="btn btn-secondary btn-lg scroll">Inscription</a>
+                  </div>
+		  <div class="col-xs-6 text-left wow fadeInUp" data-wow-delay="1.4s">
+  			<a href="pdf proposition.pdf" download="proposition.pdf" class="btn btn-primary btn-lg scroll">Pdf proposition</a>
+		  </div>
+
+                </div><!--End Button Row-->
+              </div>
+            </div>
+	</div>
+    </section>
+    <!--Pricing-->
+
+
+    <section id="invite" class="pad-lg light-gray-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2 text-center">
+            <p class="black">Prise de contact ?</p>
+
+            <div class="row">
+              <div class="col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+                <form role="form">
+                  <div class="form-group">
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Entrez l'email">
+                  </div>
+                  <button type="submit" class="btn btn-primary btn-lg">Envoyer</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer>
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-8 margin-20">
+            <ul class="list-inline social">
+              <li>Contactez nous <a href="mailto:contact@winwin.org">contact@winwin-apps.com</a></li>
+			  <li><a href="./policy.html">Politique de confidentialité</a></li>
+			  <li><a href="./terms.html">Conditions générales d'utilisation</a></li>
+			  <li><a href="./data.html">Supprimer vos données</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-4 text-right">
+            <p><small>Copyright &copy; 2024 WINWIN GROUP. Tout droits réservés. <br>
+	            </small></p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js></script>
+    <script>window.jQuery || document.write('<script jquery-1.11.0.min.js><\/script>')</script>
+    <script wow.min.js></script>
+    <script bootstrap.min.js></script>
+    <script main.js></script>
+
+
+    </body>
 </html>
+
+
