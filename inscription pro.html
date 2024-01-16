@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajouter un nouveau pro</title>
+</head>
+<body>
+    <h1>Ajouter un nouveau pro</h1>
+
+    <form action="/ajouter-pro" method="post">
+        <label for="companyName">Nom de l'entreprise :</label>
+        <input type="text" id="companyName" name="companyName" required>
+
+        <br>
+
+        <label for="email">Adresse e-mail :</label>
+        <input type="email" id="email" name="email" required>
+
+        <br>
+
+        <label for="zipcode">Code postal :</label>
+        <input type="number" id="zipcode" name="zipcode" required>
+
+        <br>
+
+        <label for="passwordDigest">Concentration de mot de passe :</label>
+        <input type="password" id="passwordDigest" name="passwordDigest" required>
+
+        <br>
+
+        <label for="country">Pays :</label>
+        <select id="country" name="country" required>
+            <option value="">Sélectionnez un pays</option>
+            <option value="US">États-Unis</option>
+            <option value="CA">Canada</option>
+            <option value="FR">France</option>
+            <option value="DE">Allemagne</option>
+            <option value="UK">Royaume-Uni</option>
+        </select>
+
+        <br>
+
+        <label for="shopAddress">Adresse de la boutique :</label>
+        <input type="text" id="shopAddress" name="shopAddress" required>
+
+        <br>
+
+        <label for="shopLocation">Emplacement de la boutique (latitude, longitude) :</label>
+        <input type="text" id="shopLocation" name="shopLocation" required>
+
+        <br>
+
+        <button type="submit">Ajouter un pro</button>
+    </form>
+</body>
+</html>
